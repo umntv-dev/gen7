@@ -1,0 +1,218 @@
+/* Stylesheet Televisionair 5.0 */
+
+
+/* @CHARSET "ISO-8859-1"; */
+
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Oswald&display=swap");
+@font-face {
+    font-family: "Taviraj";
+    src: url("{{asset('/fonts/Taviraj/Taviraj-Medium.ttf')}}");
+}
+
+
+
+
+/* Bottom menu
+* --------------------------------------- */
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    position: relative;
+}
+
+#navbar {
+    position: fixed;
+    /* top: -70px; */
+    width: 100%;
+    transition: top 0.3s;
+    background-color: #FEF9D3;
+    z-index: 9;
+}
+
+#navbar ul {
+    width: 50%;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    color: #FBAE1C !important;
+    font-family: "Taviraj", cursive!important;
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: #D78F4C !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Taviraj", cursive !important;
+}
+
+h1 {
+    font-size: 5em;
+    color: #74491D;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #74491D;
+}
+
+p {
+    font-family: "Tw Cen MT", sans-serif;
+    font-size: 2em;
+}
+
+html {
+    height: 100%;
+}
+
+/* body {
+    
+} */
+
+
+
+/* =========== */
+
+
+/* RESPONSIVE */
+
+
+/* =========== */
+
+
+/* Navbar */
+
+@media screen and (max-width: 990px) {
+    #navbarNav ul {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    #navbarNav ul li {
+        margin-top: -5px;
+    }
+    .nav-link {
+        font-size: .9rem;
+        margin-right: 0;
+    }
+    #logotvoa,
+    #logoIG {
+        padding: 5px;
+    }
+    .logo-detail {
+        opacity: 1;
+    }
+    .card {
+        width: 100vh;
+    }
+}
+
+
+/* End Of Navbar */
+
+
+
+/* oprec */
+.head a {
+    background-color: #295489; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+}
+
+body {
+    /*background-color: #A1C3CC;*/
+    background-color:  #FFD777 !important;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+h1 {
+    /*font-weight: bolder;*/
+    font-size: 50px;
+    font-family: 'Abril fatface';
+    text-align: center;
+}
+
+h3 {
+    /*font-weight: bold;*/
+    font-family: 'Abril fatface';
+    text-align: center;
+}
+
+.head-content h1 {
+    text-align: center;
+    size: 40px;
+    padding-top: 50px;
+    
+}
+
+.head-content p {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.card {
+    /* background: #DDE3E1; */
+    width: 90%!important;
+    position: relative;
+    margin-left: 12%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    box-shadow: 1px 1px 25px #3b3b3b;
+    display: inline-flex;
+    background-color: #EEE;
+}
+
+.container {
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 770px) {
+    .head-content h1 {
+        padding-top: 100px !important;
+    }
+    .card {
+        width: 400px !important;
+    }
+    .card-text{
+        font-size: 13pt;
+    }
+}
+
+@media (max-width: 900px) {
+    .card {
+        width: 95%!important;
+        position: relative;
+        margin: 0;
+    }
+    
+}
+
+.card-text{
+    font-size: 14pt;
+    text-align: left;
+}

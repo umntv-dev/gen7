@@ -1,0 +1,269 @@
+/* Modal Program */
+.modal-dialog {
+    height: 90%;
+}
+
+.modal-content {
+    border-radius: 3rem;
+    height: 100%;
+}
+
+.modal-header {
+    background-color: #085174;
+    border-top-left-radius: 3rem !important; 
+    border-top-right-radius: 3rem !important;
+}
+
+/* .modal-footer {
+    background-color: #085174;
+} */
+
+.btn-close {
+    /* margin-top: 5px;
+    margin-right: 10px; */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 12px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.btn-close:hover {
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+.modal-body {
+    background: #DCC9A1;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.modal-body .video-list {
+    /* height: 400px; */
+    height: 45rem;
+    overflow-y: scroll;
+}
+
+.modal-body .video-list h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-body .video-list .vid {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.modal-body .video-list .vid:hover {
+    background: #cab483;
+}
+
+.modal-body .video-list .vid .title {
+    padding-top: 10px;
+    color: #333;
+    text-align: justify;
+}
+
+.modal-body .video-list .vid img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.modal-body .video-list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.modal-body .video-list::-webkit-scrollbar-track {
+    background: #ccc;
+    border-radius: 50px;
+}
+
+.modal-body .video-list::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 50px;
+}
+
+.modal-body .video-list .vid .play-button {
+    background-color: #C73A26;
+    color: #ddd;
+    border-radius: 50px;
+    font-size: 20px;
+    right: 50px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.modal-body .video-list .vid .play-button:hover {
+    box-shadow: 1px 1px 10px 5px #363636;
+    background-color: #db230b;
+    color: #333;
+}
+
+
+/* Header Footer Mersi */
+
+.mersi-header {
+    height: 100px;
+    /*background-image: url("/img/modal/header/mersi.jpg");*/
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mersi-footer {
+    height: 100px;
+    background-image: url("img/modal/footer/mersi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Header Footer Sanantara */
+
+.sanantara-header {
+    height: 100px;
+    background-image: url("img/modalHead/sanantara.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sanantara-footer {
+    height: 100px;
+    background-image: url("img/modalFoot/sanantara.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Header Footer Pepox */
+
+.pepox-header {
+    height: 100px;
+    background-image: url("img/modalHead/pepox.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pepox-footer {
+    height: 100px;
+    background-image: url("img/modalFoot/pepox.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Header Footer Karena */
+
+.karena-header {
+    height: 100px;
+    background-image: url("img/modalHead/karena.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.karena-footer {
+    height: 100px;
+    background-image: url("img/modalFoot/karena.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Header Footer Kulik */
+
+.kulik-header {
+    height: 100px;
+    background-image: url("img/modalHead/kulik.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.kulik-footer {
+    height: 100px;
+    background-image: url("img/modalFoot/kulik.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Header Footer Aad */
+
+.aad-header {
+    height: 100px;
+    background-image: url("img/modalHead/aad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aad-footer {
+    height: 100px;
+    background-image: url("img/modalFoot/aad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Header Footer Lbs */
+
+.lbs-header {
+    height: 100px;
+    background-image: url("img/modalHead/lbs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lbs-footer {
+    height: 100px;
+    background-image: url("img/modalFoot/lbs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modaltitle {
+    display: flex;
+    /* margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto; */
+    margin: auto;
+    padding-left: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.vid a {
+    margin-left: auto;
+}
+
+@media (max-width: 800px) {
+    .title p {
+        display: none;
+    }
+
+    .title h4 {
+        margin-right: auto;
+    }
+
+    
+  }
